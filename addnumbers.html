@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>HTML And CSS</title>
+    <script>
+        
+        function add(){
+            var num1 = parseInt(document.getElementById("aval").value);
+            var num2 = parseInt(document.getElementById("bval").value);
+            console.log(num1);
+            console.log(num2);
+            var sum = num1 + num2;
+            alert("The sum is " + sum);
+        }
+        
+        
+    </script>
+</head>
+<body>
+	<nav>
+			<a href="index.html">Home</a>
+			<a href="htmlinfo.html">HTML</a>
+			<div class="dropdown">
+				<button class="dropbtn">CSS</button>
+				<div class="dropdown-content">
+					<a href="css1.html">CSS 1</a></li>
+					<a href="css2.html">CSS 2</a></li>
+					<a href="css3.html">CSS 3</a></li>
+				</div>
+			</div>
+			<a href="contact.html">Contact Me</a>
+            <a href="addnumbers.html">Add Numbers</a>
+	</nav>
+<img src="images/dota2.jpg">
+	<h2>About Me</h2>
+	<main>
+		<P>
+            <form>
+                A : <input type=text id="aval">
+                +
+                B : <input type=text id="bval">
+                <br>
+                <input type="submit" value="Add" onclick = "add()">
+            </form>
+        </P>
+	</main>
+</body>
+</html>

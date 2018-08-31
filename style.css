@@ -1,0 +1,98 @@
+body{
+	background-image: url("images/bg.jpg") ;
+}
+
+nav {
+	overflow: hidden;
+	background-color: #1d1d1e66;
+	font-family: Arial;
+}
+
+nav a{
+	float: left;
+	font-size: 15px;
+	color : white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	
+}
+
+nav a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+
+
+.dropdown{
+	float : left;
+	overflow: hidden;
+	
+}
+
+.dropdown .dropbtn{
+	font-size: 15px;
+	border: none;
+	outline: none;
+	color: white;
+	line-height: 45.6px;
+	background-color: inherit;
+	font-family: inherit;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+}
+
+.dropdown-content a{
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+
+.dropdown-content a:hover{
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+main {
+	font-size: 140%;
+	padding: 70px 50px 100px 50px;
+	background: #959595;
+
+}
+
+h2{
+	background: #959595;
+	font-size: 170%;
+	padding-top: 60px;
+	padding-left: 320px;
+	padding-right: 50px;
+	margin-top :151px;
+	margin-bottom :0px;
+	margin-right :0px;
+}
+
+p{
+	margin: 0;
+    padding-left: 270px;
+}
+img {
+   float: left;
+    height: 500px;
+    padding: 0;
+    margin-top: 150px;
+}
+
+input {
+    height: 140%;
+    padding: 5px;
+}
